@@ -3,9 +3,13 @@
   padding: 10px 0;
   display: flex;
   justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .header__logo {
+  max-width: 100%;
   width: 94px;
-  height: 26px;
+  height: auto;
 }

@@ -1,8 +1,12 @@
 # Project 3: Spots
 
+## Description
+
+Spots is a website design project I created using Figma. The goal was to design a clean and simple website that looks great on both desktop and mobile devices. I focused on making the layout easy to use and responsive for mobile users.
+
 ### Overview  
 
-* Intro  
+* Intro 
 * Figma  
 * Images  
   
