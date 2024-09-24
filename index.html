@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="pages/index.css" />
     <link rel="icon" href="favicon.ico" />
   </head>
+  <script src="scripts/index.js" defer></script>
   <body>
     <div class="page">
       <header class="header">
@@ -36,6 +37,9 @@
               Edit Profile
             </button>
           </div>
+         
+         
+         
           <button type="button" class="profile__add-btn">
             <img
               class="profile__plus"
@@ -123,6 +127,27 @@
       <footer class="footer">
         <p class="footer__author">2023 &#169; Spots</p>
       </footer>
+
+
+      <div class="modal modal__opened">
+        <div class="modal__container">
+          <button type = "submit" class = "modal__close-btn"></button>
+          <h2 class = "modal__title"> Edit profile </h2>
+        <form name = "edit__profile" class = modal__form>
+          <label for = "name" class = "modal__label">Name
+            <input id = "name" type = "text" class = "modal__input" placeholder="Type your name"/>
+          </label>
+
+          <label for = "description" class = "modal__label">Description
+            <input id = "description" type = "text" class = "modal__input" placeholder="Describe yourself"/>
+          </label>
+
+          <button type = "submit" class = "modal__submit-btn">Save</button>
+
+        </form>
+      </div>
+
+
     </div>
   </body>
 </html>
